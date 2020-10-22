@@ -1,16 +1,17 @@
 @media (min-width: 576px){
-    .offer-window{
+    .offer-specialist{
         width: 45.62%;
         padding-bottom: 45.62%;
         margin-right: 8.75%;
+        transition:  0.5s;
     }
 
-    .offer-window:nth-of-type(2n){
-        margin-right: 0;
+    .offer-specialist:hover{
+        transform: scale(1.05);
     }
-    .label-one:after {
-        content:"Nasza firma oferuje najwyższej \A jakości produkty.";
-        white-space:pre;
+
+    .offer-specialist:nth-of-type(2n){
+        margin-right: 0;
     }
 
     footer .container{

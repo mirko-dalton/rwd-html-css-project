@@ -47,11 +47,7 @@ nav .container{
 
 .landing-page h1{
     color: #FFF;
-
-}
-
-.label-one:after {
-    content:"Nasza firma oferuje najwyższej jakości  \A produkty.";
+    width: 65%;
 }
 
 .landing-page p{
@@ -167,7 +163,6 @@ nav .container{
 
 .offer{
     background-color: #405D78;
-    margin-bottom: -50px;
 }
 
 .offer span{
@@ -195,21 +190,16 @@ nav .container{
     height: 100%;
 }
 
-.offer-window{
+.offer-specialist{
     position: relative;
     width: 100%;
     padding-bottom: 100%;
     margin-bottom: 8.75%;
     background-color: #F1F1F1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
-    transition:  0.5s;
 }
 
-.offer-window:hover{
-    transform: scale(1.05);
-}
-
-.offer-window:nth-of-type(1) .offer-window-circle {
+.offer-specialist:nth-of-type(1) .offer-specialist-point {
     position: absolute;
     top: -10px;
     left: -10px;
